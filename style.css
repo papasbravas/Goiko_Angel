@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+img{
+    max-width: 100%;
+}
+video{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a.enl1:hover{
+    background-color: white;
+    color: black;
+}
+a.enl2:hover{
+    background-color: #ffa600 !important;
+    color: black;
+}
+nav > div > svg{
+    filter: invert();
+    width: 15%;
+}
+header{
+    padding-top: 2%;
+    margin: auto;
+    width: 90%;  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > div{
+    width: 18%;
+}
+nav > div:nth-child(1){
+    display: flex;  
+    gap: 8%;
+}
+nav > div:nth-child(2){
+    display: flex;
+    width: 20%;
+    gap: 20%;
+}
+nav > div:nth-child(2) > a{
+    border: 2px solid white;
+    border-radius: 37px;
+    padding: 5%;
+}
+nav > div > img{
+    width: 12%;
+    filter: invert();
+}
+nav > div:nth-child(2) > a:nth-child(2){
+    background-color: red;
+}
+#uno{
+    width: 100%;
+}
+#dos{
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
