@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Knockout';
+    src: url('fonts/Knockout\ HTF49Liteweight\ Regular.otf') format('truetype');
+}
+*{
+    font-family: 'Knockout';
+}
 body{ 
     background-color: black;
     overflow-x: hidden;
@@ -32,7 +39,7 @@ a.enl2:hover{
     color: black;
     transition: all 0.3s ease;
 }
-
+/* Zona del nav */
 nav > div > svg{
     filter: invert();
     width: 15%;
@@ -79,11 +86,12 @@ nav > div > img{
 nav > div:nth-child(2) > a:nth-child(2){
     background-color: red;
 }
-
+/* Zona video y letras */
 .image-container {
     position: relative;
     text-align: center;
     width: 100%;
+    display: flex;
 }
 
 .texto-detras {
@@ -107,14 +115,13 @@ nav > div:nth-child(2) > a:nth-child(2){
     color: white;
     z-index: -1;
 }
-
+/* Zona de promo */
 .promo{
     border-top: 2px solid white;
     color: white;
     text-align: center;
     position: relative;
 }
-
 
 .promo-texto {
     position: absolute;
@@ -147,6 +154,7 @@ nav > div:nth-child(2) > a:nth-child(2){
     color: white;
 }
 
+/* Zona de Carta */
 .section-carta {
     background-color: black;
     padding: 20px;
@@ -189,6 +197,7 @@ nav > div:nth-child(2) > a:nth-child(2){
     color: white;
 }
 
+/* Zona del menu */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -202,10 +211,6 @@ nav > div:nth-child(2) > a:nth-child(2){
     border-radius: 15px;
     border: 2px solid white;
     transition: transform 0.3s ease;
-  }
-  
-  .menu-obj:hover {
-    transform: scale(1.05); 
   }
   
   .menu-imagen {
@@ -251,19 +256,58 @@ nav > div:nth-child(2) > a:nth-child(2){
   .menu-obj:hover::before {
     background: rgba(139, 0, 0, 0.5);
   }
-  
 
+/* Zona de vendidas */
 
+/* #letraV{
+    color: white;
+} */
+
+/* Zona de seamos */
+#seamos{
+    background: linear-gradient(to bottom, black, #800000);
+    padding-top: 10%;
+    border-radius: 34px;
+    padding-bottom: 15%;
+}
+.cont{
+    display: flex;
+    padding-top: 3%;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    gap: 10%;
+    color: white;
+
+}
+.cont > div > a{
+    border: 2px solid white;
+    border-radius: 34px;
+    padding: 2%;
+    font-size: 22px;
+}
+.cont > div:nth-child(2) h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    width: 50%;
+}
+.cont > div:nth-child(2) p{
+    font-size: 24px;
+    padding-bottom: 2%;
+}
+
+/* Zona camion */
+
+/* Zona del footer */
 footer {
     background-color: rgb(255, 255, 255);
-    padding: 40px;
     border-top: 5px solid black;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 2% 4%;
 }
 
 .footer-section {
@@ -288,31 +332,39 @@ footer {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    font-size: 50px;
 }
 
 .footer-section ul li a:hover {
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 .footer-section.social a img {
     width: 30px;
-    margin-right: 15px;
 }
 
 .chorreo-container {
     width: 100%;
     overflow: hidden;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .chorreo-text {
     display: inline-block;
     white-space: nowrap;
-    font-size: 40px;
+    font-size: 120px;
     font-weight: bold;
     text-transform: uppercase;
     animation: slide-left 30s linear infinite;
+}
+
+.chorreo-text span:nth-child(even){
+    color: white;
+    -webkit-text-stroke: 2px black;
 }
 
 .chorreo-text span {
