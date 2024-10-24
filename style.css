@@ -55,6 +55,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 30px;
 }
 
 nav > div{
@@ -75,7 +76,7 @@ nav > div:nth-child(2){
 nav > div:nth-child(2) > a{
     border: 2px solid white;
     border-radius: 37px;
-    padding: 5%;
+    padding: 6%;
 }
 
 nav > div > img{
@@ -121,6 +122,7 @@ nav > div:nth-child(2) > a:nth-child(2){
     color: white;
     text-align: center;
     position: relative;
+    padding-bottom: 1%;
 }
 
 .promo-texto {
@@ -300,9 +302,8 @@ nav > div:nth-child(2) > a:nth-child(2){
     height: 200px;
 }
 
-/* Ajustar el espaciado para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .vendidas h1 {
+    .vendidas h2 {
         font-size: 3rem;
     }
 
@@ -318,7 +319,6 @@ nav > div:nth-child(2) > a:nth-child(2){
         margin-right: 30px;
     }
 }
-
 
 /* Zona de seamos */
 #seamos{
@@ -353,7 +353,51 @@ nav > div:nth-child(2) > a:nth-child(2){
     padding-bottom: 2%;
 }
 
-/* Zona camion */
+/* Zona Foodtruck */
+#foodtruck{
+    color: white;
+    position: relative;
+    background: linear-gradient(to bottom, transparent, black);
+}
+#foodtruck video{
+    z-index: -1;
+}
+.promo-truck {
+    position: absolute;
+    bottom: 5%;
+    left: 5%; 
+    color: white;
+    text-align: left;
+    transform: none;
+}
+
+.promo-truck h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.promo-truck h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.promo-truck p {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+/* Zona ingredientes */
+#ingredientes{
+    color: white;
+    display: flex;
+}
 
 /* Zona del footer */
 footer {
@@ -367,10 +411,6 @@ footer {
     padding: 2% 4%;
 }
 
-.footer-section {
-    display: flex;
-    flex-direction: column;
-}
 
 .footer-logo {
     width: 120px;
@@ -382,14 +422,14 @@ footer {
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 .footer-section ul li a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .footer-section ul li a:hover {
