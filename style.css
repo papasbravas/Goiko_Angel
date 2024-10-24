@@ -395,47 +395,6 @@ nav > div:nth-child(2) > a:nth-child(2){
 }
 /* Zona GOIKOCINA*/
 
-Aquí tienes una versión del código usando un id en lugar de una clase para la sección:
-
-HTML
-html
-Copiar código
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goikocina</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section id="goikocina-section">
-        <div class="text-container">
-            <p class="subtitle">Prepárate para chuparte los dedos...</p>
-            <h1>Goikocina. Los ingredientes más top, ahora en tu cocina</h1>
-            <a href="#" class="cta-button">DESCUBRE GOIKOCINA</a>
-        </div>
-        <div class="image-container">
-            <img src="/mnt/data/image.png" alt="Goikocina productos">
-        </div>
-    </section>
-</body>
-</html>
-CSS
-css
-Copiar código
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
-}
-
 #goikocina{
     display: flex;
     justify-content: space-between;
