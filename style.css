@@ -643,6 +643,211 @@ footer {
     }
 }
 
+/* General Media Queries */
+
+@media (max-width: 1200px) {
+    .texto-detras span {
+        font-size: 80px;
+    }
+    .promo-texto h1 {
+        font-size: 3.5rem;
+    }
+    .promo-texto h2 {
+        font-size: 1.5rem;
+    }
+    .promo-texto p {
+        font-size: 1.2rem;
+    }
+    .texto-carta {
+        font-size: 80px;
+    }
+    .section-noti, .texto-noti {
+        font-size: 80px;
+    }
+}
+
+/* Nav and Header */
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        padding: 10px 0;
+    }
+    nav {
+        flex-direction: column;
+        font-size: 20px;
+        gap: 10px;
+    }
+    nav > div {
+        width: 100%;
+    }
+    nav > div:nth-child(2) > a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+/* Image Container */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+    }
+    .texto-detras span {
+        font-size: 60px;
+    }
+}
+
+/* Promo Seccion */
+@media (max-width: 768px) {
+    .promo {
+        padding-bottom: 2%;
+    }
+    .promo-texto h1 {
+        font-size: 3rem;
+    }
+    .promo-texto h2 {
+        font-size: 1.2rem;
+    }
+    .promo-texto p {
+        font-size: 1rem;
+    }
+}
+
+/* Carta Seccion */
+@media (max-width: 768px) {
+    .texto-carta {
+        font-size: 60px;
+    }
+}
+
+/* Menu Objetos */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-obj {
+        width: 100%;
+    }
+    .menu-texto h3 {
+        font-size: 18px;
+    }
+    .menu-texto p {
+        font-size: 14px;
+    }
+}
+
+/* Vendidas Seccion */
+@media (max-width: 768px) {
+    .vendidas h2 {
+        font-size: 3rem;
+    }
+    .contador-imagenes img {
+        height: 120px;
+    }
+    .grupo-izquierda, .grupo-medio {
+        margin-right: 10px;
+    }
+}
+
+/* Seamos Seccion */
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cont > div:nth-child(2) h2 {
+        font-size: 40px;
+    }
+    .cont > div:nth-child(2) p {
+        font-size: 18px;
+    }
+}
+
+/* Foodtruck Seccion */
+@media (max-width: 768px) {
+    .promo-truck h1 {
+        font-size: 2.5rem;
+    }
+    .promo-truck h2 {
+        font-size: 1rem;
+    }
+    .promo-truck p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Goikocina Seccion */
+@media (max-width: 768px) {
+    #goikocina {
+        flex-direction: column;
+        text-align: center;
+    }
+    .goiko-texto {
+        max-width: 100%;
+    }
+    .goiko-texto h2 {
+        font-size: 4rem;
+    }
+    .goiko-texto a {
+        font-size: 1.5rem;
+        padding: 3%;
+    }
+    .goiko-img {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    #salsa, #burger, #pan {
+        width: 80%;
+    }
+}
+
+/* Noticias Seccion */
+@media (max-width: 768px) {
+    .section-noti {
+        height: auto;
+        padding: 20px;
+    }
+    .texto-noti {
+        font-size: 60px;
+        padding: 20px 0;
+    }
+    #noticias h2 {
+        font-size: 24px;
+    }
+    #noticias > div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #noticias > div > div {
+        width: 100%;
+    }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-section ul li a, .footer-section2 ul li a {
+        font-size: 24px;
+    }
+    .footer-section svg {
+        width: 60%;
+    }
+    .footer-logo {
+        width: 100px;
+    }
+}
+
+/* Chorreo Texto */
+@media (max-width: 768px) {
+    .chorreo-text {
+        font-size: 80px;
+    }
+}
 
 
 
