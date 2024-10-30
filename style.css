@@ -48,12 +48,8 @@ nav > div > svg{
 header{
     margin: auto;
     width: 90%;  
-    z-index: 999;
-    position: fixed;
 }
-header.header{
-    background-color: black;
-}
+
 
 nav{
     display: flex;
@@ -622,7 +618,8 @@ footer {
     font-size: 120px;
     font-weight: bold;
     text-transform: uppercase;
-    animation: slide-left 30s linear infinite;
+    animation: slide-left 110s linear infinite;
+    
 }
 
 .chorreo-text span:nth-child(even){
@@ -636,7 +633,7 @@ footer {
 
 @keyframes slide-left {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     100% {
         transform: translateX(-100%);
@@ -769,6 +766,14 @@ footer {
     }
     .contador-imagenes img {
         height: 120px;
+    }
+}
+@media (max-width: 572px) {
+    .vendidas h2 {
+        font-size: 2rem;
+    }
+    .contador-imagenes img {
+        height: 100px;
     }
 }
 
