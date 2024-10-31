@@ -46,6 +46,7 @@ nav > div > svg{
 }
 
 header{
+    padding-top: 2%;
     margin: auto;
     width: 90%;  
 }
@@ -376,7 +377,7 @@ nav > div:nth-child(2) > a:nth-child(2){
     transform: none;
 }
 
-.promo-truck h1 {
+.promo-truck h2 {
     font-size: 5rem;
     font-weight: bold;
     margin: 0;
@@ -384,7 +385,7 @@ nav > div:nth-child(2) > a:nth-child(2){
     letter-spacing: 2px;
 }
 
-.promo-truck h2 {
+.promo-truck h3 {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 10px;
@@ -700,6 +701,24 @@ footer {
         font-size: 1.3rem;
     }
 }
+@media (max-width: 572px) {
+    header {
+        width: 100%;
+        padding: 10px 0;
+    }
+    nav {
+        font-size: 20px;
+        gap: 10px;
+        width: 70%;
+    }
+    nav > div {
+        width: 100%;
+    }
+    nav > div:nth-child(2) > a {
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+}
 
 /* Image Container */
 @media (max-width: 768px) {
@@ -793,11 +812,11 @@ footer {
 
 /* Foodtruck Seccion */
 @media (max-width: 768px) {
-    .promo-truck {
+    .promo-truck h2 {
         font-size: 2.5rem;
     }
-    .promo-truck h2 {
-        font-size: 1rem;
+    .promo-truck h3 {
+        font-size: 1.5rem;
     }
     .promo-truck p {
         font-size: 1.5rem;
@@ -861,7 +880,7 @@ footer {
         text-align: center;
     }
     .footer-section ul li a, .footer-section2 ul li a {
-        font-size: 24px;
+        font-size: 28px;
     }
     .footer-section svg {
         width: 60%;
